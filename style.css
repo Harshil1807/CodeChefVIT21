@@ -1,0 +1,125 @@
+body {
+  height: 100vh;
+  width: 100vw;
+  font-family: monospace;
+  font-size: 14px;
+  -webkit-font-smoothing: antialiased;
+  background: linear-gradient(rgba(0, 0, 0, 0.08), rgba(0, 0, 0, 0.08)),
+    linear-gradient(#ffffff, #ffffff);
+}
+
+.dim {
+  background: #181818;
+}
+
+.modal {
+  z-index: 9;
+  width: 56vw;
+  height: 75vh;
+  position: absolute;
+  top: 12.5vh;
+  left: 22vw;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.4), 0 10px 40px rgba(0, 0, 0, 0.2);
+  background: linear-gradient(
+      rgba(255, 255, 255, 0.02),
+      rgba(255, 255, 255, 0.02)
+    ),
+    linear-gradient(rgba(192, 192, 192, 0.999), rgba(192, 192, 192, 0.999));
+  outline: ridge #000000 1px;
+  outline-offset: -2px;
+  border-radius: 1.5px;
+}
+
+.toolbar {
+  display: flex;
+  margin: 3px 3px;
+  width: calc(100%-6px);
+  height: 6vh;
+  box-shadow: 0 -6px 12px rgba(0, 0, 0, 0.3), 0 -10px 40px rgba(0, 0, 0, 0.2);
+  background: #0000aa;
+  outline: inset #000000 1px;
+  outline-offset: -2px;
+}
+
+.title {
+  font-family: windows;
+  font-size: 3.25vh;
+  font-weight: 600;
+  color: #ffffff;
+  margin-left: 1vw;
+  transform: translate(0, -0.35vh);
+}
+
+.windows-icon {
+  height: 5vh;
+  width: calc(5vh * 1.189944); /* original aspect ratio of png */
+  margin: 0.2vh 0 0 0.5vw;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-color: transparent;
+}
+
+.btn-tray {
+  display: flex;
+  position: absolute;
+  top: 1.25vh;
+  left: 50vw;
+  right: 3px;
+}
+
+.toolbar-btn {
+  background-size: cover;
+  background-position: center;
+  height: 2.2vh;
+  width: 2.2vh;
+  background-color: rgba(192, 192, 192, 0.9);
+  margin: 0 0.275vw;
+}
+
+.toolbar-btn:hover {
+  filter: brightness(175%);
+}
+
+.hidden {
+  display: none;
+}
+
+h1 {
+  margin: 0.5vh 0 -1.3vh 2.1vw;
+  padding: 2vh 1vw;
+  font-size: 1.6vh;
+  font-family: MS sans serif, sans-serif;
+  color: #121212;
+}
+
+p {
+  margin: 0 3vw;
+  padding: 2vh 1vw;
+  background-color: #ffffff;
+  outline: groove #000000 1px;
+  outline-offset: -1px;
+  font-family: vapor, monospace, Courier;
+  font-size: 1.5vh;
+  color: #404040;
+}
+
+.lg-btn {
+  background: linear-gradient(
+      rgba(255, 255, 255, 0.03),
+      rgba(255, 255, 255, 0.03)
+    ),
+    linear-gradient(rgba(192, 192, 192, 0.999), rgba(192, 192, 192, 0.999));
+  border: 0.3vw;
+  border-left-color: rgb(226, 225, 225);
+  border-top-color: rgb(226, 225, 225);
+  border-right-color: rgb(163, 163, 163);
+  border-bottom-color: rgb(163, 163, 163);
+  font-family: MS sans serif, sans-serif;
+  border-style: groove;
+  border-radius: 1.25px;
+  margin: 5.8vh 3.025vw 0;
+  padding: 1vh 1vw;
+  font-size: 1.5vh;
+  text-align: center;
+}
+

@@ -1,0 +1,83 @@
+@import url(https://fonts.googleapis.com/css?family=Lato:400,700|Montserrat:400,700);
+@import url(https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css);
+
+body{
+  margin: 0;
+  padding: 0;
+  font-family: "montserrat";
+  background-color: black;
+  background-image: radial-gradient(rgb(58, 56, 56) 10%, transparent 5%),
+    radial-gradient(darkgrey 10%, transparent 5%);
+  background-size: 20px 20px;
+  background-position: 0 0, 20px 20px;
+  font-family: 'Aldrich', sans-serif;
+  color: aliceblue  ;
+}
+
+h1 {
+  font-size: 1000px;
+  -webkit-text-fill-color: whitesmoke; /* Will override color (regardless of order) */
+  -webkit-text-stroke-width: 1px;
+  /* -webkit-text-stroke-color: darkgrey; */
+  text-transform: uppercase;
+  /* line-height: 80%; */
+  text-align: center;
+  /* padding-bottom: 5px; */
+  font-size: 100px;
+  padding-top: 100px;
+}
+
+.aqua {
+  text-shadow: 2px 2px white, 8px 5px aqua;
+}
+
+
+
+
+section#counter-stats {
+	display: flex;
+	justify-content: center;
+	margin-top: 100px;
+}
+
+.stats {
+  text-align: center;
+  font-size: 35px;
+  font-weight: 700;
+  font-family: 'Montserrat', sans-serif;
+  display:block;
+  float:left;
+  padding: 70px;
+  padding-top: 0px;
+
+}
+
+.stats .fa {
+  color: #008080;
+  font-size: 60px;
+}
+
+.logo {
+  height: 18%;
+    width: 10%;
+    margin-top: 0.5%;
+    margin-left: 0.5%;
+    left: 20px;
+    position: absolute;
+    top: 20px;
+}
+
+.intro{
+  
+  color: white;
+  font-size: 30px;
+  padding-bottom: 40px;
+  padding-top: 100px;
+  text-align: center;
+}
+.human{
+  justify-content: center;
+  /* background-color: white; */
+  padding-top: 80px;
+
+}
